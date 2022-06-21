@@ -1,5 +1,5 @@
 # Teaching-consensus
-Teaching consensus is a repository where we document all the decisions we've made as team of how we teach certain aspects that could have loads of opinions
+[Teaching consensus](https://github.com/gdmgent/Teaching-consensus/wiki) is a repository where we document all the decisions we've made as team of how we teach certain aspects that could have loads of opinions
 
 ## Why?
 From the viewpoint of a student, it is already difficult to learn a new programming language or a new skill. Having a diverse team of teachers, means that each one of us teaches in a different way, which is great! Some will focus on aspect A and some will focus on aspect B, which is the strength of having a diverse team! 
@@ -17,5 +17,5 @@ Let's take an easy example: Let's say we were a school that would teach how to d
 Keeping your eyes open is not an opinion so that has no place in a consensus. Wearing a helmet apparently is, so we should come up with a consensus to not contradict each other.
 
 ## How?
-We will be using the [wiki of this repository]([url](https://github.com/gdmgent/Teaching-consensus/wiki)) to keep track of every consensus. Each consensus will also link back to it's own Github issue where the possible changes for the consensus can be discussed and tracked.
+We will be using the wiki to keep track of every consensus. Each consensus will also link back to it's own Github issue where the possible changes for the consensus can be discussed and tracked.
 
