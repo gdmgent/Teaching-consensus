@@ -17,5 +17,5 @@ Let's take an easy example: Let's say we were a school that would teach how to d
 Keeping your eyes open is not an opinion so that has no place in a consensus. Wearing a helmet apparently is, so we should come up with a consensus to not contradict each other.
 
 ## How?
-We will be using the wiki of this repository to keep track of every consensus. Each consensus will also link back to it's own Github issue where the possible changes for the consensus can be discussed and tracked.
+We will be using the [wiki of this repository]([url](https://github.com/gdmgent/Teaching-consensus/wiki)) to keep track of every consensus. Each consensus will also link back to it's own Github issue where the possible changes for the consensus can be discussed and tracked.
 
