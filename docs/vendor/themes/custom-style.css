@@ -1,0 +1,16 @@
+body {
+  font-size: 1rem;
+}
+
+.utterances {
+  margin-left: 0;
+}
+
+body > .utterances {
+  /* Don't allow the github comments to be shown straight under the body element, as that breaks the layout. */
+  display: none; 
+}
+
+.markdown-section iframe[title="Comments"] {
+  border: none;
+}
