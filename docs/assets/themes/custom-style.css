@@ -14,3 +14,59 @@ body > .utterances {
 .markdown-section iframe[title="Comments"] {
   border: none;
 }
+
+.docsify-example-panel {
+  display: block;
+}
+
+.docsify-example-panels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.docsify-example-panels > * {
+  width: 20rem;
+  flex: 1 0 auto;
+}
+
+.panel--dont,
+.panel--do {
+  position: relative;
+  padding: 0.5rem 0.5rem 2.5rem;
+}
+
+.panel--dont > *:nth-last-child(2),
+.panel--do > *:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.panel--dont > *:last-child,
+.panel--do > *:last-child {
+  position: absolute;
+  width: calc(100% + 2px);
+  height: 2rem;
+  background: #721200;
+  left: -1px;
+  bottom: -1px;
+  text-align: center;
+  padding: 0.2rem 0.4rem;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+}
+
+.panel--do > p:last-child {
+  background: #2c7200;
+}
+
+.panel--dont {
+  border: 4px solid #721200;
+  background: hsla(9, 100%, 22%, 0.2);
+  position: relative;
+}
+
+.panel--do {
+  border: 4px solid hsl(97, 100%, 22%);
+  background: hsla(97, 100%, 22%, 0.2);
+}

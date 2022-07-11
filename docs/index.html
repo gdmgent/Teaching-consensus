@@ -21,6 +21,7 @@
 <body>
   <div id="app"></div>
   <script>
+    
     window.$docsify = {
       loadNavbar: true,
       loadSidebar: true,
@@ -29,7 +30,6 @@
       name: 'Teaching consensus',
       repo: '',
       search: 'auto', // default
-      
       search: {
         maxAge: 86400000, // Expiration time, the default one day
         paths: 'auto',
@@ -38,6 +38,18 @@
         // Headline depth, 1 - 6
         depth: 6,
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+      },
+      tabs: {
+        persist    : true,      // default
+        sync       : false,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+      timeUpdater: {
+        text: ">This page was last updated on: {docsify-updated}",
+        formatUpdated: "{DD}/{MM}/{YYYY}",
+        whereToPlace: "top",  // "top" or "bottom", default to "bottom"
       },
       plugins: [
         function(hook, vm) {
@@ -57,6 +69,9 @@
   </script>
   <script src="assets/docsify.js"></script>
   <script src="assets/plugins/search.min.js"></script>
+  <script src="assets/plugins/emoji.min.js"></script>
+  <script src="assets/plugins/time-updater.min.js"></script>
+  <script src="assets/plugins/docsify-example-panels.js"></script>
   <script src="https://utteranc.es/client.js"
         repo="gdmgent/Teaching-consensus"
         issue-term="title"
