@@ -1,4 +1,4 @@
-![logo](_media/logo.png)
+![logo](assets/media/logo.png)
 
 # Teaching consensus <small>0.1</small>
 

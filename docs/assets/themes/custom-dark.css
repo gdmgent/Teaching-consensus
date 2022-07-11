@@ -250,21 +250,8 @@ main.hidden {
 	z-index: 20
 }
 
-.sidebar>h1 {
-	margin: 0 auto 1rem;
-	font-size: 1.5rem;
-	font-weight: 300;
-	text-align: center
-}
-
-.sidebar>h1 a {
-	color: inherit;
-	text-decoration: none
-}
-
-.sidebar>h1 .app-nav {
-	display: block;
-	position: static
+.sidebar h1 {
+	display: none;
 }
 
 .sidebar .sidebar-nav {
@@ -321,8 +308,7 @@ main.hidden {
 	background-color: transparent;
 	background-color: rgba(63, 63, 63, .8);
 	border: 0;
-	outline: none;
-	padding: 10px;
+	padding: 0.5rem;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -691,16 +677,17 @@ section.cover .cover-main>p:last-child a {
 
 section.cover .cover-main>p:last-child a:last-child {
 	background-color: var(--theme-color, #ea6f5a);
-	color: #fff
+	color: #fff;
 }
 
 section.cover .cover-main>p:last-child a:last-child:hover {
-	color: inherit;
-	opacity: .8
+	color: #fff;
+	background-color: var(--theme-color, rgba(234, 111, 90, 0.8));
 }
 
-section.cover .cover-main>p:last-child a:hover {
-	color: inherit
+section.cover .cover-main>p:last-child a:first-child:hover {
+	color: inherit;
+	border-color: rgb(200, 200, 200);
 }
 
 section.cover blockquote>p>a {
@@ -712,17 +699,17 @@ section.cover blockquote>p>a:hover {
 	color: var(--theme-color, #ea6f5a)
 }
 
-.sidebar,
 body {
-	background-color: #3f3f3f
+	background-color: #3f3f3f;
 }
 
 .sidebar {
-	color: #c8c8c8
+	background-color: rgba(63, 63, 63, 0.8);
+	color: #c8c8c8;
 }
 
 .sidebar li {
-	margin: 6px 15px 6px 0
+	margin: 6px 15px 6px 0;
 }
 
 .sidebar ul li a {
@@ -753,7 +740,20 @@ body {
 .markdown-section h4,
 .markdown-section strong {
 	color: #657b83;
-	font-weight: 600
+	font-weight: 600;
+	margin-bottom: 1rem;
+	margin-top: 3rem;
+}
+
+.markdown-section h1+h2,
+.markdown-section h2+h3,
+.markdown-section h3+h4,
+.markdown-section h4+h5 {
+	margin-top: 0rem;
+}
+
+.markdown-section strong {
+	color: #f2f2f2;
 }
 
 .markdown-section a {
@@ -762,38 +762,35 @@ body {
 }
 
 .markdown-section h1 {
-	font-size: 2rem;
-	margin: 0 0 1rem
+	font-size: 3rem;
 }
 
 .markdown-section h2 {
-	font-size: 1.75rem;
-	margin: 45px 0 .8rem
+	font-size: 2.4rem;
 }
 
 .markdown-section h3 {
-	font-size: 1.5rem;
-	margin: 40px 0 .6rem
+	font-size: 2rem;
 }
 
 .markdown-section h4 {
-	font-size: 1.25rem
+	font-size: 1.6rem
 }
 
 .markdown-section h5 {
-	font-size: 1rem
+	font-size: 1.25rem
 }
 
 .markdown-section h6 {
 	color: #777;
-	font-size: 1rem
+	font-size: 1rem;
 }
 
 .markdown-section figure,
 .markdown-section ol,
 .markdown-section p,
 .markdown-section ul {
-	margin: 1.2em 0
+	margin: 0 0 1rem 0;
 }
 
 .markdown-section ol,
