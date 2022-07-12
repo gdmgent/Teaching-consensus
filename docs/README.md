@@ -29,4 +29,5 @@ In order to maintain the value of this teaching consensus, we should avoid the f
 - **Focus-points**: We should respect the wiggle-room for each teacher in their ever-evolving course content and preferences of focus-points.
 - **Your opinion**: Make sure additions to this document are actual consensusses and not a one-person opinion
 - **Don't be obvious**: If no one ever will doubt the consensus, it's probably not worth putting it in here.
+- **Don't over explain**: You can assume that the readers of this consensus will be people with expertise.
 
