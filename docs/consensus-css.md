@@ -66,7 +66,7 @@ The em unit is an interesting fellow. It's a relative unit, based on the element
 Note: To make it easier to understand how the `em` unit works, we're using pixel-based font sizes here. As we'll learn shortly, however, this is a bad idea. Please don't do this in real applications!
 
 #### Rem's
-It was introduced because there's a common frustrating issue with the em unit: it compounds.
+Rem's were introduced because there was a common frustrating issue with the em unit: it compounds...
 For example, consider the following snippet:
 
 ```html
