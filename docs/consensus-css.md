@@ -131,28 +131,29 @@ Don't overwrite the font-size on the root-element
 <!-- panels:end -->
 
 #### Line-height
-Line-height are always relative to the font-size of the text itself. L, we should therefor always use a relative unit. If we omit the unit, line-height will behave as it was intended: relatively!
+Line-height are always relative to the font-size of the text itself. We should therefor always use a relative unit. If we use percentages, line-height will behave as it was intended: relatively to the font size.
 
 <!-- panels:start -->
 <!-- div:panel--left panel--dont -->
 ```css
 .selector {
   font-size: 1rem;
+  
   line-height: 20px;
   /* or */
   line-height: 1.4rem;
 }
 ```
-Don't use a unit when defining line-height.
+Don't use a unit that don't keep the link to it's own font-size.
 
 <!-- div:panel--right panel--do -->
 ```css
 .selector {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 140%;
 }
 ```
-Unitless line-height won't give you trouble if you change the font-size.
+Percentage-based line-height won't give you trouble if you change the font-size.
 <!-- panels:end -->
 
 #### Letter-spacing
