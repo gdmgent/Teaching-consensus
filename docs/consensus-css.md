@@ -370,7 +370,7 @@ There are loads of CSS Reset's out there, but in order to smooth out the learnin
 Loads copied from [Josh Comeau's custom CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 ```css
 /*
-  Artevelde hogeschool CSS Reset
+  Artevelde hogeschool CSS Reset v0.1
   Adapted version from Josh's Custom CSS Reset https://www.joshwcomeau.com/css/custom-css-reset/
 */
 
