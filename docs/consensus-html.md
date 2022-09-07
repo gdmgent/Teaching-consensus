@@ -3,28 +3,32 @@
  - The lean-principle: `www` doesn't stand for the Wealthy White West, keeping the loadtimes and weight of ouw interfaces low means that we keep it as accessible towards a world wide audience, and we keep our carbon footprint to a minimum.
  - The robust-principle: An interface should have the least amount of reliabilities that could end up breaking the interface or making your content not accessible to your audience.
 
-## Paths: Don't start with a / 
+## Paths: Don't start url's with "/" if the work won't be hosted on a server. 
 One of the first hurdles, students experience when starting to write HTML is when writing relative paths. So we should unify how we teach them. 
 
 Starting a relative path with `/` will only work when the files are viewed from a server(-emulated) environment. Evaluating the result of their code as teachers is very tedious, if we can't just double click the `index.html` but instead need to set their project up in a way that we have our local server setup from the same folder as each student individually.
 
-**Only on projects that a student is supposed to deliver using a server such as github pages or the likes, should we allow the use of "/".
+Once the student is delivering their project or test through a server, it's ok to use "/" in the beginning of url's
 
 <!-- panels:start -->
 <!-- div:panel--left panel--dont -->
 ```html
-<!-- Don't capitalise classnames -->
+<!-- HTML-file in a zipped project -->
 <img src="/folder-in-root/image.png" alt="an example">
 ```
-Don't start with a "/".
+Don't start with a "/" if your work won't be on a server.
 
 <!-- div:panel--left panel--do -->
 ```html
+<!-- HTML-code in a zipped project -->
 <img src="folder-in-root/image.png" alt="an example">
 <img src="../folder-in-root/image.png" alt="an example">
 <img src="../../folder-in-root/image.png" alt="an example">
+
+<!-- HTML-code in a hosted project on a server -->
+<img src="/image.png" alt="an example">
 ```
-Use "../"
+Only start with "/" on server-hosted pages.
 
 <!-- div:panel--left panel--do -->
 ```html
