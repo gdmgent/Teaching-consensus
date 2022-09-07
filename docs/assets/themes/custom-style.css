@@ -78,3 +78,8 @@ a[onclick^=EditOnGithub] {
   left: 2.2rem;
   text-align: left;
 }
+
+main .markdown-section {
+	margin: 1rem;
+	max-width: 100rem;
+}
