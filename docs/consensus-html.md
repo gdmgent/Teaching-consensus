@@ -1,4 +1,9 @@
 # HTML
+## Contributors
+Point of contact for discussions and evolutions of the HTML-consensus: Mathieu Spillebeen
+Supported by
+ - No-one yet :) Be the first! ;)
+
 ## Principles
  - The lean-principle: `www` doesn't stand for the Wealthy White West, keeping the loadtimes and weight of ouw interfaces low means that we keep it as accessible towards a world wide audience, and we keep our carbon footprint to a minimum.
  - The robust-principle: An interface should have the least amount of reliabilities that could end up breaking the interface or making your content not accessible to your audience.
