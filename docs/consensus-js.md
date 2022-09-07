@@ -1,4 +1,10 @@
 # JavaScript
+## Contributors
+Currently in first draft:
+Point of contact for discussions and evolutions of the JS-consensus: Tim De Paepe, Evelien Rutseart, Adriaan Gilbert en Michael Vanderpoorten
+
+Supported by:
+ - No-one yet :) Be the first! ;)
 
 ## Language
 Whenever writing comments, variable names, etc. you use the **English** language. If projects become open source, a larger community must be able to understand the syntax.
