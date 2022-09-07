@@ -1,6 +1,6 @@
 # CSS
 ## Contributors
-Point of contact for discussions and evolutions of the HTML-consensus: Mathieu Spillebeen
+Point of contact for discussions and evolutions of the CSS-consensus: Mathieu Spillebeen
 
 Supported by:
  - No-one yet :) Be the first! ;)
