@@ -1,4 +1,10 @@
 # CSS
+## Contributors
+Point of contact for discussions and evolutions of the HTML-consensus: Mathieu Spillebeen
+
+Supported by:
+ - No-one yet :) Be the first! ;)
+
 ## Principles
 When teaching CSS, we should follow a few key principles.
  - Accessibility is the norm, not an afterthought
