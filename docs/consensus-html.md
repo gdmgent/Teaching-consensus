@@ -103,17 +103,7 @@ Limit the dependencies from other domains, where possible. trusting on other dom
 ## Tabs vs Spaces
 Tabs are more accessible than spaces, so please use tabs in your code examples.
 
-## Beautify-extension
-When using the beautify-Extension from Visual Studio, long lines of text get wrapped and put over multiple lines. When allowing this, html won't be correctly tracked over git, when the student arrives at that stage later in their learning curve.
-
-Open up your vscode settings and add this in:
-```javascript
-"beautify.config": {
-  "wrap_line_length": 1000000000,
-  "indent_with_tabs": true
-}
-```
-
+## Formatting
 If you want your editor to wrap the text for easier editor, you can toggle the setting **View: Toggle word wrap**.
 
 <!-- panels:start -->
