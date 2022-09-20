@@ -4,6 +4,7 @@ Point of contact for discussions and evolutions of the HTML-consensus: Mathieu S
 
 Supported by:
  - Frederick Roegiers 
+ - Tim De Geeter
  - No-one else yet :) Be the second! ;)
 
 ## Principles
