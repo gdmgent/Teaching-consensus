@@ -3,7 +3,8 @@
 Point of contact for discussions and evolutions of the CSS-consensus: Mathieu Spillebeen
 
 Supported by:
- - No-one yet :) Be the first! ;)
+ - Frederick Roegiers 
+ - No-one else yet :) Be the second! ;)
 
 ## Principles
 When teaching CSS, we should follow a few key principles.
