@@ -114,10 +114,10 @@ Documents have a default font size of 16px, which means that 1rem has a “nativ
 ```css
 .selector {
   font-size: 32px; /* Doesn't respect browser accessibility settings */
-  font-size: 2em; /* Not maintainable on larger sizes. */
+  font-size: 2em; /* Hard to maintain on larger sizes. */
 }
 ```
-Don't use pixels or em's.
+In general Don't use pixels or em's.
 
 <!-- div:panel--right panel--do -->
 ```css
@@ -136,6 +136,25 @@ html {
 }
 ```
 Don't overwrite the font-size on the root-element
+
+<!-- div:panel--right panel--do -->
+```css
+.selector {
+  /* Still use rem's to base em's upon! */
+  font-size: 2rem;
+}
+
+.selector__child {
+  font-size: 1.2em;  /* results in 2rem * 1,2 */
+  padding: 2em;      /* results in 2rem * 1,2 * 2 */
+}
+
+.selector__child__grandchild {
+  font-size: 0.5em;  /* results in 2rem * 1,2 * 0,5 */
+  padding: 2em;      /* results in 2rem * 1,2 * 0,5 * 2 */
+}
+```
+Exception use-case for within components: Use ems if you want values to intentionally compound relative to font-sizes of itzelf or of it's nearest parent */
 <!-- panels:end -->
 
 #### Line-height
