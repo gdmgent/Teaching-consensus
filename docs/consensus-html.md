@@ -57,30 +57,39 @@ Only start with "/" on server-hosted pages.
 Use the base-tag for nesting HTML-files.
 <!-- panels:end -->
 
-## Class naming convention
-HTML is an international language that has adopted the English language in it's core. When naming elements, we should always keep to the English language. Building on top of this convention, when writing more complex CSS, we should always use the [BEM-methodology](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) to name classes.
+### Class-naming conventions
+HTML is an international language that has adopted the English language in it's core. When naming elements, we should always keep to the English language.
+Naming things is hard, very hard. The logic here should be to make pragmatic use of BEM and utility classes, or in other words: KISS (Keep It Simple Stupid) and use [BEM-methodology](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) in the use-cases where it is actually helpfull.
 <!-- panels:start -->
 <!-- div:panel--left panel--dont -->
 ```html
 <!-- Don't capitalise classnames -->
 <div class="MyBlock"></div>
 
-<!-- Stick to English -->
+<!-- Don't write in Dutch -->
 <div class="blokje"></div>
 
-<!-- Don't overuse BEM -->
-<div class="block__element__sub__part"></div>
-
-```
-Don't go random.
-
-<!-- div:panel--left panel--do -->
-```html
-<div class="block block--modifier">
-  <div class="block__element"></div>
+<div class="cards">
+  <div class="cards__card">...</div>
+  
+  <div class="cards__card cards__card--blue"></div>
+ 
+  <div class="cards__card cards__card--text-centered"></div>
 </div>
 ```
-Use BEM naming.
+Don't overuse BEM.
+
+<!-- div:panel--right panel--do -->
+```html
+<div class="cards">
+  <div class="card">...</div>
+  
+  <div class="card card--blue"></div>
+ 
+  <div class="card text-centered"></div>
+</div>
+```
+Keep it as simple as possible.
 <!-- panels:end -->
 
 ## Icon fonts
