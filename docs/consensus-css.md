@@ -141,7 +141,7 @@ Don't overwrite the font-size on the root-element
 **Exception use-case**
 There are use-cases for within components where you will want to use ems if you want values to intentionally compound relative to font-sizes of itself or of it's nearest parent. Make use of this compounding effect sparingly, as it can add quite a bit of complexity to the learning curve of students. 
 <!-- panels:start -->
-<!-- div:panel--right panel--do -->
+<!-- div:panel--do -->
 ```css
 .selector {
   /* Still use rem's to base em's upon! */
@@ -158,6 +158,7 @@ There are use-cases for within components where you will want to use ems if you 
   padding: 2em;      /* results in 2rem * 1,2 * 0,5 * 2 */
 }
 ```
+Use the em-unit only where it has a clear advantage
 <!-- panels:end -->
 
 #### Line-height
