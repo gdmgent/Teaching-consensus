@@ -292,7 +292,7 @@ Do use pixels
 Using multiple files to structure your CSS is the preferred way in an HTTP2 world. Please only abstract to multiple files when it has a clear advantage. 
 
 ### Class-based theming
-Theming using id's are not scalable, and we should avoid them as much as possible. When showing examples to students, please always stick to using the [BEM-methodology](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
+Theming using id's is not scalable, and we should avoid them as much as possible. 
 
 ### Media queries
 Building on top of the principle of class-based theming en possible multiple files, we should group our media-queries right below the class that they will be overwriting. For the sake of simplicity, readability and maintainability.
