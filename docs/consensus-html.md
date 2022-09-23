@@ -57,7 +57,7 @@ Only start with "/" on server-hosted pages.
 Use the base-tag for nesting HTML-files.
 <!-- panels:end -->
 
-### Class-naming conventions
+## Class-naming conventions
 HTML is an international language that has adopted the English language in it's core. When naming elements, we should always keep to the English language.
 Naming things is hard, very hard. The logic here should be to make pragmatic use of BEM and utility classes, or in other words: KISS (Keep It Simple Stupid) and use [BEM-methodology](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) in the use-cases where it is actually helpfull.
 <!-- panels:start -->
