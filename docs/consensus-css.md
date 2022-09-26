@@ -6,7 +6,8 @@ Supported by:
  - Frederick Roegiers 
  - Tim De Geeter
  - Wachem Huyge
- - No-one else yet :) Be the second! ;)
+ - Miguel De Pelsmaeker
+ - No-one else yet :) Be the next! ;)
 
 ## Principles
 When teaching CSS, we should follow a few key principles.
