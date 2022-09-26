@@ -6,7 +6,8 @@ Supported by:
  - Frederick Roegiers 
  - Tim De Geeter
  - Wachem Huyge
- - No-one else yet :) Be the second! ;)
+ - Miguel De Pelsmaeker
+ - No-one else yet :) Be the next! ;)
 
 ## Principles
  - The lean-principle: `www` doesn't stand for the Wealthy White West, keeping the loadtimes and weight of ouw interfaces low means that we keep it as accessible towards a world wide audience, and we keep our carbon footprint to a minimum.
