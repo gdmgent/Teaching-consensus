@@ -391,8 +391,8 @@ Don't use hexadecimal as it is not readable.
 <!-- div:panel--right panel--do -->
 ```css
 .selector {
-  color: hsl(12, 50, 199);
-  background: hsla(12, 50, 199, 0.4);
+  color: hsl(12, 50%, 30.1%);
+  background: hsla(12, 50%, 30.6%, 0.4);
 }
 ```
 Use hsl or hsla for colors.
