@@ -401,67 +401,8 @@ Use hsl or hsla for colors.
 ## Our custom CSS Reset
 There are loads of CSS Reset's out there, but in order to smooth out the learning curve for our students we should use the same starting point. This has the advantage of no longer having to talk around loads of quircks of browsers, and getting straight to the fun bits.
 Loads copied from [Josh Comeau's custom CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/)
-```css
-/*
-  Artevelde hogeschool CSS Reset v0.1
-  Adapted version from Josh's Custom CSS Reset https://www.joshwcomeau.com/css/custom-css-reset/
-*/
 
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
-*, 
-*::before, 
-*::after {
-  box-sizing: border-box;
-}
-
-/*
-  2. Remove default margin
-*/
-* {
-  margin: 0;
-}
-
-/*
-  3. Allow percentage-based heights in the application
-*/
-html, body {
-  height: 100%;
-}
-
-/*
-  Typographic tweaks!
-  4. Add accessible line-height
-  5. Improve text rendering
-*/
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-/*
-  6. Improve media defaults
-*/
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
-
-/*
-  7. Remove built-in form typography styles
-*/
-input, button, textarea, select {
-  font: inherit;
-}
-
-/*
-  8. Avoid text overflows
-*/
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-```
+The latest version of Artevelde's reset.css can be downloaded from [gdm.gent/css](https://www.gdm.gent/css/) by students and teachers alike and is maintained on a [different Github repo](https://github.com/gdmgent/css/blob/main/docs/reset.css): 
 
 ## References
 Loads copied from [a blogpost from Josh Comeau](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/ ). 
