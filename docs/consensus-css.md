@@ -13,7 +13,7 @@ Supported by:
 ## Principles
 When teaching CSS, we should follow a few key principles.
  - Accessibility is the norm, not an afterthought
- - Mobile-first responsiveness: Responsiveness is not an option, it is the foundation of CSS.
+ - Responsiveness is not an option, it is the foundation of CSS.
  - Readability and maintainability are more important then keeping your code DRY.
  - New specifications of CSS should only be taught when it is **certain** that the spec will be widely used by the time the student finishes their education with us.
 
@@ -288,6 +288,8 @@ Use rem for media queries.
 
 <!-- panels:end -->
 
+#### Mobile-first or Desktop-first?
+Use whichever makes most sense to the context of the project, but don't mix them within a project, as that makes the predictability of the outcome of the CSS unnecessarily complicated.
 
 ### White space
 The question we should ask ourselves here is: should the value grow, when the user makes the default font-size bigger?
@@ -379,15 +381,16 @@ Repeat the media query whenever necessary.
 <!-- panels:end -->
 
 ## Color
-When designing interfaces, we currently use the basis of Refactoring UI. Colors that belong to the same hue are easier to identify if we write them out in the `hsl()` or `hsla()`-notation.
+When designing interfaces, we currently use the basis of Refactoring UI. Colors that belong to the same hue are easier to identify if we write them out in the `hsl()` or `hsla()`-notation. While our choice of preference is to use `hsl()` or `hsla()`-notation, we shouldn't punish students that use different notations.
 <!-- panels:start -->
 <!-- div:panel--left panel--dont -->
 ```css
 .selector {
   color: #127634;
+  color: blue;
 }
 ```
-Don't use hexadecimal as it is not readable.
+But it's not wrong to use other notations.
 
 <!-- div:panel--right panel--do -->
 ```css
@@ -396,7 +399,7 @@ Don't use hexadecimal as it is not readable.
   background: hsla(12, 50%, 30.6%, 0.4);
 }
 ```
-Use hsl or hsla for colors.
+Preferably use hsl or hsla for colors as the default as much as possible.
 <!-- panels:end -->
 
 ## Our custom CSS Reset
