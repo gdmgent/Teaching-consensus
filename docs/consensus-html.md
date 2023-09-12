@@ -7,6 +7,7 @@ Supported by:
  - Tim De Geeter
  - Wachem Huyge
  - Miguel De Pelsmaeker
+ - Tim De Paepe
  - No-one else yet :) Be the next! ;)
 
 ## Principles
