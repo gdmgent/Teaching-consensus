@@ -4,6 +4,7 @@ Currently in first draft:
 Point of contact for discussions and evolutions of the JS-consensus: Tim De Paepe, Evelien Rutseart, Adriaan Gilbert en Michael Vanderpoorten
 
 Supported by:
+ - Tim De Paepe
  - No-one yet :) Be the first! ;)
 
 ## Language
